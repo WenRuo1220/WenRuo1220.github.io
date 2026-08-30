@@ -57,7 +57,11 @@
   --icon-loading: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2212%22%20r%3D%220%22%20fill%3D%22currentColor%22%3E%3Canimate%20attributeName%3D%22r%22%20begin%3D%22.67%22%20calcMode%3D%22spline%22%20dur%3D%221.5s%22%20keySplines%3D%220.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B2%3B0%3B0%22%2F%3E%3C%2Fcircle%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%220%22%20fill%3D%22currentColor%22%3E%3Canimate%20attributeName%3D%22r%22%20begin%3D%22.33%22%20calcMode%3D%22spline%22%20dur%3D%221.5s%22%20keySplines%3D%220.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B2%3B0%3B0%22%2F%3E%3C%2Fcircle%3E%3Ccircle%20cx%3D%226%22%20cy%3D%2212%22%20r%3D%220%22%20fill%3D%22currentColor%22%3E%3Canimate%20attributeName%3D%22r%22%20begin%3D%220%22%20calcMode%3D%22spline%22%20dur%3D%221.5s%22%20keySplines%3D%220.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%3B0.2%200.2%200.4%200.8%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B2%3B0%3B0%22%2F%3E%3C%2Fcircle%3E%3C%2Fsvg%3E");
 }</style>
   
-</head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
 <body><div id="l_cover"></div><div class="l_body index" id="start" layout="undefined" type="undefined" ><aside class="l_left leftbar-card" data-ui-surface="card"><div class="sidebg"></div><div class="leftbar-container">
 
 
@@ -84,13 +88,13 @@
   <div class="widget-body"><div class="ui-collection" data-layout="list" data-variant="nav" data-density="compact">
   
     
-<a class="ui-collection__item card-hover card-hover--spotlight" href="/2026/08/30/%E4%B8%80%E5%8F%A3%E6%B0%94%E7%9C%8B%E6%87%82%E2%80%94%E2%80%94%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-PPO-%E4%B8%AD%E7%9A%84-GAE-%E8%AF%A6%E8%A7%A3/" title="一口气看懂——强化学习-PPO-中的-GAE-详解">
+<a class="ui-collection__item card-hover card-hover--spotlight" href="/2026/08/30/%E4%B8%80%E5%8F%A3%E6%B0%94%E7%9C%8B%E6%87%82%E2%80%94%E2%80%94%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0PPO%E4%B8%AD%E7%9A%84GAE%E8%AF%A6%E8%A7%A3/" title="一口气看懂——强化学习PPO中的GAE详解">
   
   
   
     <span class="ui-collection__content">
       
-      <span class="ui-collection__title">一口气看懂——强化学习-PPO-中的-GAE-详解</span>
+      <span class="ui-collection__title">一口气看懂——强化学习PPO中的GAE详解</span>
       
       
     </span>
@@ -139,16 +143,20 @@
 
 <div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a class="active" href="/tags/">标签：PPO</a><a href="/archives/">归档</a></nav></div></div></div>
 
-<div class="post-list post"><div class="post-card-wrap slide-up"><a class="post-card post card-hover card-hover--spotlight card-hover--tilt" href="/2026/08/30/%E4%B8%80%E5%8F%A3%E6%B0%94%E7%9C%8B%E6%87%82%E2%80%94%E2%80%94%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-PPO-%E4%B8%AD%E7%9A%84-GAE-%E8%AF%A6%E8%A7%A3/">
-<article class="md-text"><h2 class="post-title">一口气看懂——强化学习-PPO-中的-GAE-详解</h2><div class="excerpt"><p>1. 先搞清楚：GAE 是在估计什么？在 PPO 里，我们通常要估计优势函数：
-$$A_t &#x3D; A(s_t, a_t)$$它表示：在状态 $s_t$ 下采取动作 $a_t$，比“平均水平”好多少？如果：$$A_t &gt; 0$$说明这个动作比平均水...</p></div><div class="meta cap"><span class="cap" id="post-meta"><svg class="icon" data-icon="default:calendar" aria-hidden="true"></svg><time datetime="2026-08-30T08:58:28.000Z">2026-08-30</time></span></div></article>
+<div class="post-list post"><div class="post-card-wrap slide-up"><a class="post-card post card-hover card-hover--spotlight card-hover--tilt" href="/2026/08/30/%E4%B8%80%E5%8F%A3%E6%B0%94%E7%9C%8B%E6%87%82%E2%80%94%E2%80%94%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0PPO%E4%B8%AD%E7%9A%84GAE%E8%AF%A6%E8%A7%A3/">
+<article class="md-text"><h2 class="post-title">一口气看懂——强化学习PPO中的GAE详解</h2><div class="excerpt"><p> 1. 先搞清楚：GAE 是在估计什么？
+在 PPO 里，我们通常要估计优势函数：
+At&#x3D;A(st,at)A_t &#x3D; A(s_t, a_t)
+At​&#x3D;A(st​,at​)
+它表示：在状态 sts_tst​ 下采取动作 ata_tat​，比“平均水平”...</p></div><div class="meta cap"><span class="cap" id="post-meta"><svg class="icon" data-icon="default:calendar" aria-hidden="true"></svg><time datetime="2026-08-30T08:58:28.000Z">2026-08-30</time></span></div></article>
 </a></div></div>
 
 
 
 
 
-<footer class="page-footer slide-up footnote"><hr><div class="text"><p>本站由 <a href="/">Wenruo</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.44.0">Stellar 1.44.0</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+<footer class="page-footer slide-up footnote"><hr><div class="text"><p>本站由 <a href="/">Wenruo</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.44.0">Stellar 1.44.0</a> 主题创建。<br />
+本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right" data-ui-surface="sidebar"></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
